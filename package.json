@@ -1,6 +1,6 @@
 {
   "name": "tiles-map-downloader",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Download map tiles from various providers (Google, Yandex, OSM, Bing) by coordinates and zoom",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
