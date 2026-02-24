@@ -202,6 +202,18 @@ interface DownloadResult {
 
 ---
 
-## Лицензия / License
+## GitHub
 
-MIT
+Исходный код и документация доступны на GitHub:
+https://github.com/LevapVeeskela/tiles-map-downloader
+
+## Поддержка
+
+Сообщить об ошибках и предложить улучшения:
+https://github.com/LevapVeeskela/tiles-map-downloader/issues
+
+## Тестирование
+
+```bash
+npm test
+```
