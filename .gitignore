@@ -26,3 +26,10 @@ yarn-error.log*
 /logs/*
 download.log
 failed_tiles.log
+
+# build output
+/dist
+/test-tiles
+
+# npm publish docs
+/PUBLISHNPM.md

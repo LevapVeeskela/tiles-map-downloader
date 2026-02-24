@@ -1,7 +1,36 @@
 {
+  "name": "tiles-map-downloader",
+  "version": "1.0.0",
+  "description": "Download map tiles from various providers (Google, Yandex, OSM, Bing) by coordinates and zoom",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "tiles-download": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "maps",
+    "tiles",
+    "google-maps",
+    "yandex-maps",
+    "openstreetmap",
+    "bing-maps",
+    "downloader"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "axios": "1.7.7",
-    "dayjs": "1.11.13",
-    "express": "4.21.1"
+    "axios": "^1.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.33",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
